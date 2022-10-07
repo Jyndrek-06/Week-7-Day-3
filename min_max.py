@@ -3,11 +3,13 @@ def min_max():
   print("min and max")
   # Quickly check the minimum or maximum of a list with these functions.
   
-  # mylist = [10,20,30,40,100]
-  # min(mylist)
+  mylist = [10,20,30,40,100]
+  mylist2 = list(range(20,38))
+  min(mylist)
   # 10
-  # max(mylist)
+  print(max(mylist))
   # 100
+  print(list(zip(mylist,mylist2)))
   
   #################################################min/max######################################
   
